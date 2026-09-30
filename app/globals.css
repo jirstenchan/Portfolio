@@ -3,6 +3,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --darkBlue: #2f4157;
+  --cream: #f8f2e4;
+  --redAccent: #ff4b59;
+  --yellowAccent: #ffc600;
+  --greenAccent: #00ca48;
+  --folder: #36a9e2;
+  --folderShadow: #1d71b9;
+  --paper: #fffff3;
+  --paperShadow: #e4e2d3;
 }
 
 @theme inline {
@@ -14,7 +23,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #f8f2e4;
     --foreground: #ededed;
   }
 }
